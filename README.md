@@ -100,17 +100,6 @@ docker run --rm -it -v [YOUR PATH TO CONFIG.TOML]:/app/config.toml zsnmwy/bilibi
 requests.post("https://bili.dev:2233/captcha", json={'image': base64.b64encode(image).decode("utf-8")})
 ```
 
-## 交流
-
-QQ群：[956399361](https://jq.qq.com/?_wv=1027&k=5BO0c7o)
-
-## 捐赠
-
-<p align="center">
-<img src="https://cdn.kagamiz.com/Bilibili-Toolkit/donate_alipay.png" width="250">
-<img src="https://cdn.kagamiz.com/Bilibili-Toolkit/donate_wechat.png" width="250">
-</p>
-
 ## 鸣谢
 
 本项目的灵感与使用到的部分API来自以下项目：
